@@ -60,7 +60,7 @@ def get_device_name(device: dict) -> str:
         elif pid == 666:
             name = "Magic Keyboard"
         else:
-            name = "Unknown Bluetooth Device"
+            name = f"Unknown Bluetooth Device (ProductID={pid})"
     return name
 
 

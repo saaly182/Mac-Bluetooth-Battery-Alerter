@@ -16,6 +16,7 @@ A state-aware background utility designed to be executed periodically via a macO
 
 * Python 3.x
 * macOS (requires native `ioreg` and `osascript` utilities)
+* root / sudo access on the Mac to install the files
 
 ## Deployment and Installation
 
